@@ -1,0 +1,43 @@
+html {
+    font-family: 'Outift', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.QRCode {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Display {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 20px;
+
+    text-align: center;
+
+
+}
+
+#image {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 20px;
+}

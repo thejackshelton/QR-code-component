@@ -42,7 +42,8 @@ p {
     font-size: 20px;
 }
 
-@media all and (max-width: 700px) {
+/* Mobile Version */
+@media all and (max-width: 375px) {
     #Display {
         width: 250px;
         height: 400px;

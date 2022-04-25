@@ -41,3 +41,25 @@ p {
     font-weight: 400;
     font-size: 20px;
 }
+
+@media all and (max-width: 700px) {
+    #Display {
+        width: 250px;
+        height: 400px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
